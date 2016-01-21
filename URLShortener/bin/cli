@@ -1,0 +1,9 @@
+puts "What is your email?"
+email = gets.chomp
+
+puts "Do you want to create a url or generate a random one?"
+puts "0: Create"
+puts "1: Random"
+create_option = gets.chomp
+
+if create_option == "0"
